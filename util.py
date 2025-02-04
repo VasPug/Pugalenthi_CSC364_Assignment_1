@@ -143,6 +143,8 @@ def write_to_file(path, packet_to_write, send_to_router=None):
 def receive_packet(connection, max_buffer_size,path,router_number):
     # 1. Receive the packet from the socket.
     received_packet = connection.recv(max_buffer_size)
+    if not received_packet:
+        return None
     # 2. If the packet size is larger than the max_buffer_size, print a debugging message
     packet_size = sys.getsizeof(received_packet)
     if packet_size > max_buffer_size:

@@ -33,5 +33,3 @@
 217.122.110.120,40.84.208.61,plans,1 to Router 5
 40.77.120.212,10.0.0.71,can,5 to Router 5
 215.67.76.166,137.209.135.28,people,2 to Router 5
- to Router 5
- to Router 5

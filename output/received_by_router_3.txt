@@ -6,4 +6,3 @@
 157.172.73.89,10.0.0.63,Empire's,5 to Router 3
 24.204.239.1,10.0.0.54,her,1 to Router 3
 48.156.218.118,10.0.0.51,freedom,5 to Router 3
- to Router 3
